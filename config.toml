@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Xinta's Blog"
-baseURL = "http://example.org/"
+baseURL = "https://tokyo2006.github.io/"
 disqusShortname = "xinta"
 disablePathToLower = false
 pygmentsuseclasses = false
