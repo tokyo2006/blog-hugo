@@ -2,8 +2,8 @@
 draft = true
 date = "2017-03-24T14:49:18+08:00"
 title = "备份mysql数据库的shell脚本"
-categories = ["java"]
-tags = ["Java","Language"]
+categories = ["database"]
+tags = ["mysql","linux","shell"]
 +++
 
 领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵
