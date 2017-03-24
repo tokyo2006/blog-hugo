@@ -18,7 +18,7 @@ post = "/blog/:year-:month-:day-:title/"
 
 [[menu.main]]
 	Name = "Java"
-	URL = "/categories/java"
+	URL = "/categories/java/"
 	weight = -9
 
 [[menu.main]]
@@ -45,14 +45,15 @@ post = "/blog/:year-:month-:day-:title/"
 [params]
 	truncate = true
 	author = "Xinta"
-        subtitle = "梦里不知身是客"
-        searchEngineURL = "https://www.google.com/search"
-        continueReadingText = "想看更多内容吗"
-        googleAnalytics = "google analytics"
-        rss = true
-        defaultDescription = "这是我重新记录博客的地方，免费并且开源，很棒！"
-        defaultKeywords = ["java","sql","database","linux","devops","docker"]
-
+    subtitle = "梦里不知身是客"
+    searchEngineURL = "https://www.google.com/search"
+    continueReadingText = "想看更多内容吗"
+    googleAnalytics = "google analytics"
+    rss = true
+    defaultDescription = "这是我重新记录博客的地方，免费并且开源，很棒！"
+    defaultKeywords = ["java","sql","database","linux","devops","docker"]
+    notFoundHeader = "什么也没有"
+    notFoundText = "出错啦，你访问的页面不存在哟～～～"
 	sidebarRecentLimit = 10
 	sidebarHeader = "友情链接"
 	sidebarText = """"""
@@ -65,8 +66,6 @@ post = "/blog/:year-:month-:day-:title/"
 	linkedin = "https://www.linkedin.com/in/chen-zeng-5703205a/?trk=public-profile-join-page"
 	facebook = "http://www.facebook.com/fei.jianxin"
 	instagram = "http://www.instagram.com/tokyo2006/"
-	notFoundHeader = "什么也没有"
-	notFoundText = """出错啦，你访问的页面不存在哟～～～"""
 	disableReadingTime = false
 	disableGoogleFonts = false
 	generateTaxonomyList = true
