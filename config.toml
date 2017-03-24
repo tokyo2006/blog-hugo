@@ -25,7 +25,10 @@ post = "/blog/:year-:month-:day-:title/"
 	Name = "Linux"
 	URL = "/categories/linux"
 	weight = -8
-
+[[menu.main]]
+	Name = "关于"
+	URL = "/about/"
+	weight = 10
 
 # Sidebar menus
 # Enable with "sidebarMenuEnabled = true" in [params]
