@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Xinta's Blog"
 baseURL = "https://tokyo2006.github.io/"
-disqusShortname = "xinta"
+
 disablePathToLower = false
 pygmentsuseclasses = false
 pygmentsstyle = "solarized_dark"
@@ -44,6 +44,7 @@ post = "/blog/:year-:month-:day-:title/"
 	category = "categories"
 [params]
 	truncate = true
+	comments = true
 	author = "Xinta"
     subtitle = "梦里不知身是客"
     searchEngineURL = "https://www.google.com/search"
