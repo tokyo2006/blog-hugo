@@ -4,8 +4,8 @@ baseURL = "https://tokyo2006.github.io/"
 
 disablePathToLower = false
 pygmentsuseclasses = false
-pygmentsstyle = "solarized_dark"
-pygmentscodefences = true
+pygmentscodefences = false
+pygmentsoptions = "linenos=true"
 paginate = 6
 
 [permalinks]
@@ -43,6 +43,7 @@ post = "/blog/:year-:month-:day-:title/"
 	tag = "tags"
 	category = "categories"
 [params]
+    tableOfContents = true
 	truncate = true
 	comments = true
 	author = "Xinta"
@@ -53,7 +54,7 @@ post = "/blog/:year-:month-:day-:title/"
     rss = true
     defaultDescription = "这是我重新记录博客的地方，免费并且开源，很棒！"
     defaultKeywords = ["java","sql","database","linux","devops","docker"]
-    notFoundHeader = "什么也没有"
+	notFoundHeader = """什么也没找到"""
     notFoundText = "出错啦，你访问的页面不存在哟～～～"
 	sidebarRecentLimit = 10
 	sidebarHeader = "友情链接"

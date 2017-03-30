@@ -1,18 +1,23 @@
 +++
-draft = true
+draft = false
 date = "2017-03-24T14:49:18+08:00"
 title = "备份mysql数据库的shell脚本"
+description="领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!"
 categories = ["database"]
+toc = true
 tags = ["mysql","linux","shell"]
 +++
 
-领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵
-```
+领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!
+
+``` shell
 #! /bin/bash
 #define mysql path
 MYSQL_BIN_PATH=/local/akazam/servers/akazamdb51/bin #这个是你MYSQL的安装目录
 MYSQL_BACKUP_PATH=/local/akazam/mysqlbak#你要备份的目录
-SOCKET_FILE=/tmp/mysql.sock
+  
+
+    SOCKET_FILE=/tmp/mysql.sock
 if [ $# -eq 0 ]; then
     echo "ERROR:Usage:please input mysql arguments" 1>&2
     echo "The arguments like this" 1>&2`
@@ -67,6 +72,8 @@ echo "backup result is:$bakresult"
 #delete the day before's backup
 rm -rf $backpath/$db$byd
 echo "you delete backup mydqldump is $db$byd and need backup mysqldump is $db$today"
+
 ```
+
 
 
