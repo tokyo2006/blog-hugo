@@ -43,7 +43,7 @@ post = "/blog/:year-:month-:day-:title/"
 	tag = "tags"
 	category = "categories"
 [params]
-    tableOfContents = true
+    tableOfContents = false
 	truncate = true
 	comments = true
 	author = "Xinta"
