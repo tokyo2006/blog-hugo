@@ -20,6 +20,8 @@ MetaDataFormat = "yaml"
     topic = "topics"
 
 [params]
+    notFoundHeader = """什么也没找到"""
+	notFoundText = """出错啦，你访问的页面不存在哟～～～"""
 	copyright_years = "2017"
 	css_file = "/css/nixon.css"
 	domain_name = "www.lkjxblog.tech"
