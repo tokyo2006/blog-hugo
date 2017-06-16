@@ -1,42 +1,33 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
 
-<div id="main">
- <div id="content">
-  <div class="blog-index">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-    {{ range $paginator.Pages }}
-    <article>
+    {{ partial "meta.html" . }}
 
-        {{ .Scratch.Set "isHome" true }}
-        {{ partial "post_header.html" . }}
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-        {{ if eq .Site.Params.truncate false }}
-       <!-- {{ .Content }} -->
-        {{ else if .Description }}
-        {{ .Description }} 
-          <footer>
-            <a href="{{ .Permalink }}" rel="full-article">{{ if isset .Site.Params "continueReadingText" }}{{ .Site.Params.continueReadingText }} &rarr;{{ else }}Read more &rarr;{{ end }}</a>
-          </footer>
-        {{ else }}
-         <p>{{ .Summary }}</p> 
+    {{ partial "head_includes.html" . }}
+</head>
+<body lang="en">
 
-          {{ if .Truncated }}
-              <footer>
-                  <a href="{{ .Permalink }}" rel="full-article">{{ if isset .Site.Params "continueReadingText" }}{{ .Site.Params.continueReadingText }} &rarr;{{ else }}Read more &rarr;{{ end }}</a>
-              </footer>
-          {{ end }}
+{{ partial "subheader.html" . }}
 
-        {{ end }}
-
-    </article>
+<section id="main">
+  <div>
+      <h1 id="title">{{.Site.Title}}</h1>
+    {{ range first 10 .Data.Pages }}
+    {{ if and (ne .Title "关于") (ne .Title "license") }}
+        {{ .Render "summary"}}
+    {{end}}
+      
     {{ end }}
-    <!-- {{ template "_internal/pagination.html" . }} default pagination -->
-    {{ partial "pagination.html" . }}  <!-- use custom pagination -->
-
   </div>
+</section>
 
-  {{ partial "sidebar.html" . }}    <!-- sidebar -->
- </div>
-</div>
+<aside id="meta"> </aside>
 
-{{ partial "footer.html" . }}   <!-- footer -->
+{{ partial "footer.html" . }}

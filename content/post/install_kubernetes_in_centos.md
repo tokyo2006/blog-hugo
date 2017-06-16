@@ -1,20 +1,16 @@
-+++
-draft = false
-date = "2017-04-01T16:31:18+08:00"
-title = "在CentOS7中安装Kubernetes"
-description=" 一直以来都想尝鲜下Kubernates但是每次看网站都云里雾里的，在google中看到很多博客都写了安装的步骤，于是乎我就参考了Jimmy Song写的在CentOS上安装Kubernetes详细指南"
-categories = ["docker"]
-toc = true
-tags = ["docker","linux","shell","kubernetes"]
-+++
+---
+date: 2017-04-01
+title: "在CentOS7中安装Kubernetes"
+description: " 一直以来都想尝鲜下Kubernates但是每次看网站都云里雾里的，在google中看到很多博客都写了安装的步骤，于是乎我就参考了Jimmy Song写的在CentOS上安装Kubernetes详细指南"
+Topics:
+ - docker
+Tags: ["docker","linux","shell","kubernetes"]
+---
+
+一直以来都想尝鲜下Kubernates但是每次看网站都云里雾里的，在google中看到很多博客都写了安装的步骤，于是乎我就参考了[Jimmy Song](http://rootsongjc.github.io/rootsongjc.github.io/about)写的[在CentOS上安装Kubernetes详细指南](http://rootsongjc.github.io/blogs/kubernetes-installation-on-centos/)。这里写下安装的步骤记录一下。
+<!--more-->
+
 ![kubernetesincentos](http://onm4sjyr8.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720170401144347.png) 
-
-# 在CentOS7中安装Kubernetes
-
-### 一直以来都想尝鲜下Kubernates但是每次看网站都云里雾里的，在google中看到很多博客都写了安装的步骤，于是乎我就参考了[Jimmy Song](http://rootsongjc.github.io/rootsongjc.github.io/about)写的[在CentOS上安装Kubernetes详细指南](http://rootsongjc.github.io/blogs/kubernetes-installation-on-centos/)。这里写下安装的步骤记录一下。
-
-
-
 #### 系统环境
 
 - CentOS Linux release 7.3.1611

@@ -1,77 +1,52 @@
+baseurl = "http://www.lkjxblog.tech/"
+theme = "nixon"
+title = "Dawn Zeng's Blog"
 languageCode = "en-us"
-title = "Xinta's Blog"
-baseURL = "https://tokyo2006.github.io/"
+disqusShortname = "Xinta's Blog"
+copyright = "Copyright (c) 2017, Dawn Zeng; all rights reserved."
+MetaDataFormat = "yaml"
 
-disablePathToLower = false
-pygmentsuseclasses = false
-pygmentscodefences = false
-pygmentsoptions = "linenos=true"
-paginate = 6
+# used by Hugo shortcodes
+#GoogleAnalytics = "UA-XXXXX-Y"
 
-[permalinks]
-post = "/blog/:year-:month-:day-:title/"
+# note that the theme expects author both here and in the
+# parameters section
+[author]
+    name = "Dawn Zeng"
 
-[[menu.main]]
-	Name = "首页"
-	URL = "/"
-	weight = -10
-
-[[menu.main]]
-	Name = "Java"
-	URL = "/categories/java/"
-	weight = -9
-
-[[menu.main]]
-	Name = "Linux"
-	URL = "/categories/linux"
-	weight = -8
-[[menu.main]]
-	Name = "关于"
-	URL = "/about/"
-	weight = 10
-
-# Sidebar menus
-# Enable with "sidebarMenuEnabled = true" in [params]
-# Header text is "sidebarMenuHeader" in [params]
-
-
-[[menu.sidebar]]
-	Name = "首页"
-	URL = "/"
-	weight = 2
+# used by the theme
 [indexes]
-	tag = "tags"
-	category = "categories"
-[params]
-    tableOfContents = false
-	truncate = true
-	comments = true
-	author = "Xinta"
-    subtitle = "梦里不知身是客"
-    searchEngineURL = "https://www.google.com/search"
-    continueReadingText = "想看更多内容吗"
-    googleAnalytics = "google analytics"
-    rss = true
-    defaultDescription = "这是我重新记录博客的地方，免费并且开源，很棒！"
-    defaultKeywords = ["java","sql","database","linux","devops","docker"]
-	notFoundHeader = """什么也没找到"""
-    notFoundText = "出错啦，你访问的页面不存在哟～～～"
-	sidebarRecentLimit = 10
-	sidebarHeader = "友情链接"
-	sidebarText = """"""
-	sidebarMenuEnabled = true
-	sidebarMenuHeader = "Sidebar Links"
-	github = "https://github.com/tokyo2006/"
-	bitbucket = "https://bitbucket.org/tokyo2006/"
-	twitter = "https://twitter.com/rurounikexin/"
-	stackoverflow = ""
-	linkedin = "https://www.linkedin.com/in/chen-zeng-5703205a/?trk=public-profile-join-page"
-	facebook = "http://www.facebook.com/fei.jianxin"
-	instagram = "http://www.instagram.com/tokyo2006/"
-	disableReadingTime = false
-	disableGoogleFonts = false
-	generateTaxonomyList = true
-[blackfriday]
-	hrefTargetBlank = true 
-	fractions = false
+    tag = "tags"
+    topic = "topics"
 
+[params]
+	copyright_years = "2017"
+	css_file = "/css/nixon.css"
+	domain_name = "www.lkjxblog.tech"
+	personal_site = "http://www.lkjxblog.tech/about/"
+
+	[params.author]
+		name = "Dawn Zeng"
+		# The three quotes allow the biography to span
+		# multiple lines. Must end with three, too.
+#		short_bio = """ """
+
+	[params.facebook]
+		account = "fei.jianxin"
+#	[params.feedburner]
+#		account = "nixon.example"
+	[params.github]
+		account = "tokyo2006"
+#	[params.googleplus]
+#		account = ""
+	[params.linkedin]
+		account = "dawnzeng"
+		source  = "https://www.linkedin.com/in/dawnzeng"
+	[params.twitter]
+		account = "rurounikexin"
+#	[params.slideshare]
+#		account = "nixon.example"
+
+	[params.license]
+		url = "http://www.lkjxblog.tech/license/"
+		attribution = "all rights reserved"

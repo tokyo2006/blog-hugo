@@ -1,10 +1,10 @@
-+++
-date = "2017-03-24T14:18:52+08:00"
-title = "关于"
-draft = true
-type = "about"
-tags = ["xinta"]
-+++
+---
+date: "2017-03-24T14:18:52+08:00"
+Title: "关于"
+Draft: false
+Type: "about"
+Tags: ["xinta"]
+---
 
 ![梦里不知身是客](http://onm4sjyr8.bkt.clouddn.com/20120609_182219.jpg?imageslim)
 

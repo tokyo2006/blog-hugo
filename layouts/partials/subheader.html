@@ -1,0 +1,10 @@
+<header id="header">
+    <figure>
+      <a href="/" border=0 id="logolink"><div class="icon-nixon-home" id="logo"> </div></a>
+    </figure>
+    {{ with .Site.Params.author.name }}<div id="byline">by {{ . }}</div>{{ end }}
+    <nav id="nav">
+    {{ partial "nav.html" . }}
+    {{ partial "social.html" . }}
+    </nav>
+</header>

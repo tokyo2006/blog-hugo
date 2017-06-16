@@ -1,0 +1,4 @@
+# this file is a place holder to keep the server from warning on startup
+# Issue #28 has been opened to add real i18n support
+- id: placeHolder
+  translation: "placeHolder"

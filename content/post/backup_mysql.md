@@ -1,15 +1,19 @@
-+++
-draft = false
-date = "2017-03-24T14:49:18+08:00"
-title = "备份mysql数据库的shell脚本"
-description="领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!"
-categories = ["database"]
-toc = true
-tags = ["mysql","linux","shell"]
-+++
+---
+date: 2017-03-24
+title: "备份mysql数据库的shell脚本"
+description: "领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!"
+Section: post
+Slug: 备份mysql数据库的shell脚本
+Topics:
+ - database
+Tags:
+ - mysql
+ - linux
+ - shell 
+---
 
 领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!
-
+<!--more-->
 ``` shell
 #! /bin/bash
 #define mysql path

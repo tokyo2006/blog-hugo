@@ -1,10 +1,10 @@
-+++
-date = "2017-03-23T14:19:07+08:00"
-title = "license"
-type = "license"
+---
+date: 2017-03-23T14:19:07+08:00
+title: "license"
+type: License
 
-+++
-Copyright 2017 [xinta](https://tokyo2006.github.io)
+---
+Copyright 2017 [xinta](http://www.lkjxblog.tech)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
