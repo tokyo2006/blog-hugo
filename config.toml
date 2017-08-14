@@ -1,5 +1,5 @@
 baseurl = "http://www.lkjxblog.tech/"
-theme = "nixon"
+#theme = "nixon"
 title = "Dawn Zeng's Blog"
 languageCode = "en-us"
 disqusShortname = "Xinta's Blog"
