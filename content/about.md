@@ -31,3 +31,7 @@ Tags: ["xinta"]
 ### 不喜欢:
 
 抽烟 下雨天
+
+### 正在学
+
+puppet terraform golang python jenkins
