@@ -1,7 +1,20 @@
 <aside id=comments>
  <div><h2> Comments </h2></div>
 <!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2128537"></script>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  
+  owner: 'tokyo2006',              //比如我的叫anTtutu
+  repo: 'tokyo2006.github.io',                 //比如我的叫anTtutu.github.io
+  oauth: {
+    client_id: '5103d5c8ddda6e741c7c',          //比如我的828***********
+    client_secret: 'a184f5c10b7142589aeb32349341f29aacd4e146',  //比如我的49e************************
+  },
+})
+gitment.render('container')
+</script>
 <!-- UY END -->
 </aside>
