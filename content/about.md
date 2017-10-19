@@ -6,7 +6,7 @@ Type: "about"
 Tags: ["xinta"]
 ---
 
-![梦里不知身是客](http://onm4sjyr8.bkt.clouddn.com/20120609_182219.jpg?imageslim)
+![梦里不知身是客](https://onm4sjyr8.bkt.clouddn.com/20120609_182219.jpg?imageslim)
 
 ## 关于我
 

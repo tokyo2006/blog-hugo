@@ -3,11 +3,11 @@
 		<p>
 			Content &copy; {{.Site.Params.copyright_years}}
 			{{ with .Site.Params.author.name }}
-				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<span itemprop="author" itemscope itemtype="https://schema.org/Person">
 					<span itemprop="name">{{ . }}.</span>
 				</span>
 			{{ end }}
-			<a rel="license" href="{{.Site.Params.license.url}}" title="Creative Commons Attribution">{{.Site.Params.license.attribution}}</a>; Powered by <a href="http://gohugo.io">Hugo</a>.
+			<a rel="license" href="{{.Site.Params.license.url}}" title="Creative Commons Attribution">{{.Site.Params.license.attribution}}</a>; Powered by <a href="https://gohugo.io">Hugo</a>.
 		</p>
 	</div>
 </footer>

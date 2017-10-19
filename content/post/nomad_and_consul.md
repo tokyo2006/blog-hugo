@@ -20,7 +20,7 @@ Tags:
   <!--more-->
   <figure class="half">
     <img src="https://cdn.rawgit.com/hashicorp/nomad/master/website/source/assets/images/logo-text.svg" width="300">
-    <img src="http://onm4sjyr8.bkt.clouddn.com/consul.png" width="80">
+    <img src="https://onm4sjyr8.bkt.clouddn.com/consul.png" width="80">
   </figure>
 
 
