@@ -1,4 +1,4 @@
-baseurl = "http://www.lkjxblog.tech/"
+baseurl = "https://www.lkjxblog.tech/"
 #theme = "nixon"
 title = "Dawn Zeng's Blog"
 languageCode = "en-us"
@@ -25,7 +25,7 @@ MetaDataFormat = "yaml"
 	copyright_years = "2017"
 	css_file = "/css/nixon.css"
 	domain_name = "www.lkjxblog.tech"
-	personal_site = "http://www.lkjxblog.tech/about/"
+	personal_site = "https://www.lkjxblog.tech/about/"
 
 	[params.author]
 		name = "Dawn Zeng"
@@ -50,5 +50,5 @@ MetaDataFormat = "yaml"
 #		account = "nixon.example"
 
 	[params.license]
-		url = "http://www.lkjxblog.tech/license/"
+		url = "https://www.lkjxblog.tech/license/"
 		attribution = "all rights reserved"
