@@ -3,7 +3,6 @@ baseurl = "https://lkjxblog.tech"
 title = "Dawn Zeng's Blog"
 languageCode = "en-us"
 disqusShortname = "Xinta's Blog"
-copyright = "Copyright (c) 2020, Dawn Zeng; all rights reserved."
 MetaDataFormat = "yaml"
 
 # used by Hugo shortcodes
