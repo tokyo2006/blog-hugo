@@ -19,7 +19,7 @@ jobs:
         -v ${{ github.workspace }}:/opt/apps \
         tokyo2006/hugo-builder:latest && \
         cd public && \
-        git remote set-url https://github.com/tokyo2006/tokyo2006.github.io.git && \
+        git remote set-url --add origin https://github.com/tokyo2006/tokyo2006.github.io.git && \
         /usr/bin/git add . && \
         /usr/bin/git commit -m "add new blog" 
     - name: Push changes
