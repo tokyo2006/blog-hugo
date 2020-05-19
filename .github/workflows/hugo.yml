@@ -18,9 +18,14 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/opt/apps \
         tokyo2006/hugo-builder:latest && \
-        cd public && /usr/bin/git init && \
-        /usr/bin/git remote add origin https://github.com/tokyo2006/tokyo2006.github.io.git && \
+        cd public && \
+        git remote set-url https://github.com/tokyo2006/tokyo2006.github.io.git && \
         /usr/bin/git add . && \
-        /usr/bin/git commit -m "add new blog" && \
-        /usr/bin/git push --set-upstream origin master
+        /usr/bin/git commit -m "add new blog" 
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.REGISTRY_TOKEN }}
+        directory: public 
+        repository: https://github.com/tokyo2006/tokyo2006.github.io.git 
         
