@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the site in the Hugo/builder container
       run: |
-        docker build --build-arg GITHUB_TOKEN=${{ secrets.REGISTRY_TOKEN }} -f Dockerfile .
+        docker build --build-arg GITHUB_TOKEN=${{ secrets.REGISTRY_TOKEN }} -t blog-build:0.1 -f Dockerfile . \
+        docker run --rm --name blog blog-build:0.1
