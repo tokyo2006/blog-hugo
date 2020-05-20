@@ -1,11 +1,9 @@
-From --platform=arm64 tokyo2006/hugu-builder
+From  tokyo2006/hugo-builder:latest
 
 COPY . /opt/apps
 
 WORKDIR /opt/apps
 
 ARG GITHUB_TOKEN
-
-ARG GITHUB_REPO
 
 ENTRYPOINT ["./docker-build.sh"]

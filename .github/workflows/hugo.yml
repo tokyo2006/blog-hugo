@@ -15,17 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the site in the Hugo/builder container
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/opt/apps \
-        tokyo2006/hugo-builder:latest && \
-        cd public && \
-        git remote set-url --add origin https://github.com/tokyo2006/tokyo2006.github.io.git && \
-        /usr/bin/git add . && \
-        /usr/bin/git commit -m "add new blog" 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.REGISTRY_TOKEN }}
-        directory: public 
-        repository: https://github.com/tokyo2006/tokyo2006.github.io.git 
-        
+      docker build --build-arg GITHUB_TOKEN=${{ secrets.REGISTRY_TOKEN }} -f Dockerfile .
