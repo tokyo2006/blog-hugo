@@ -94,9 +94,10 @@ Tags:
 
 1. 安装Counsul agent
     1. 安装consul
+        
         1. 下载安装文件[consul.zip](https://releases.hashicorp.com/consul/0.9.2/consul_0.9.2_linux_amd64.zip?_ga=2.263591564.1830874971.1502669774-161034209.1500947169)
-    1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
-
+1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
+    
         ```
         {
             "datacenter": "global",
@@ -189,9 +190,10 @@ Tags:
 
 1. 安装Counsul agent
     1. 安装consul
+        
         1. 下载安装文件[consul.zip](https://releases.hashicorp.com/consul/0.9.2/consul_0.9.2_linux_amd64.zip?_ga=2.263591564.1830874971.1502669774-161034209.1500947169)
-    1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
-
+1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
+    
         ```
         {
             "datacenter": "global",
@@ -219,8 +221,8 @@ Tags:
             "bootstrap_expect":1,
             "retry_interval": "30s"
         }
-        ```
-
+    ```
+    
     1. 启动consul agent
         ```
             consul agent -config-dir=/opt/consul/config
@@ -228,9 +230,10 @@ Tags:
 ## 三. Consul Server安装
 1. 安装Counsul agent
     1. 安装consul
+        
         1. 下载安装文件[consul.zip](https://releases.hashicorp.com/consul/0.9.2/consul_0.9.2_linux_amd64.zip?_ga=2.263591564.1830874971.1502669774-161034209.1500947169)
-    1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
-
+1. 准备好配置文件config.hcl并将文件放在/opt/consul/config目录中
+    
         ```
         {
             "datacenter": "global",
@@ -258,8 +261,8 @@ Tags:
             "bootstrap_expect":1,
             "retry_interval": "30s"
         }
-        ```
-
+    ```
+    
     1. 启动consul agent
         ```
             consul agent -config-dir=/opt/consul/config

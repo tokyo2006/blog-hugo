@@ -14,6 +14,7 @@ Tags:
 
 领导说每天都需要备份一下mysql，好吧，我总不能天天手动去弄，所以我自己写了一份shell脚本用来自动备份，crontab还是很好的呵呵!
 <!--more-->
+
 ```
 #! /bin/bash
 #define mysql path
