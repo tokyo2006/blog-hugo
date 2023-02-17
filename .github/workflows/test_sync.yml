@@ -20,3 +20,4 @@ jobs:
           TARGET_REPOS: |
             tokyo2006/testfilesycn
           GITHUB_TOKEN: ${{ secrets.REGISTRY_TOKEN }}
+          TARGET_ROOT: helm
