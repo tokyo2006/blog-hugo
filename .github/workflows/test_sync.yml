@@ -13,11 +13,11 @@ jobs:
 
     steps:
       - name: sync file
-        uses: adrianjost/files-sync-action@v1.0.1
+        uses: adrianjost/files-sync-action@master
         with:
           FILE_PATTERNS: |
             layouts
           TARGET_REPOS: |
             tokyo2006/testfilesycn
           GITHUB_TOKEN: ${{ secrets.REGISTRY_TOKEN }}
-          TARGET_ROOT: helm
+          TARGET_ROOT: /helm
