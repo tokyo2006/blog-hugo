@@ -3,6 +3,8 @@ name: Test Sync file
 on:
   push:
     branches: [ master ]
+    paths:
+      - 'layout/**'
 
 jobs:
   build:
