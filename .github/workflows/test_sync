@@ -3,8 +3,7 @@ name: Test Sync file
 on:
   push:
     branches: [ master ]
-    paths:
-      - "public/about/**"
+
 jobs:
   build:
 
