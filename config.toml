@@ -4,7 +4,7 @@ title = "Dawn Zeng's Blog"
 languageCode = "en-us"
 disqusShortname = "Xinta's Blog"
 MetaDataFormat = "yaml"
-
+hasCJKLanguage = true
 # used by Hugo shortcodes
 #GoogleAnalytics = "UA-XXXXX-Y"
 
@@ -14,7 +14,6 @@ MetaDataFormat = "yaml"
     name = "Dawn Zeng"
 
 # used by the theme
-hasCJKLanguage = true
 [indexes]
     tag = "tags"
     topic = "topics"
