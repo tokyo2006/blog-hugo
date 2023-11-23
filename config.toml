@@ -14,6 +14,7 @@ MetaDataFormat = "yaml"
     name = "Dawn Zeng"
 
 # used by the theme
+hasCJKLanguage = true
 [indexes]
     tag = "tags"
     topic = "topics"
