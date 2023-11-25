@@ -11,6 +11,7 @@ Tags:
  - lifecycle
  - shell 
  - sourcecode
+ - git
 ---
 
     源代码的管理可以说是所有软件应用的基石，它也是生命周期的开始。我会从这里开始详细的回顾整个软件生命周期的每一个流程
@@ -82,7 +83,7 @@ Monorepo的主要特点如下：
 
 ![repo_management](https://res.cloudinary.com/xinta/image/upload/v1700708261/blogimage/oidimjbp0xmwrvwmvsta.png)
 
-## 源代码的版本管理
+## 源代码的版本管理流程
 
 通常在使用代码版本管理软件的时候如果使用的方式不对经常会遇到我在[运维眼中的软件生命周期](https://blog.lkjxblog.tech/post/%E8%BF%90%E7%BB%B4%E7%9C%BC%E4%B8%AD%E7%9A%84%E8%BD%AF%E4%BB%B6%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/)提到的提交代码的时候常常会遇到代码冲突的情况，也遇到自己把别人代码覆盖亦或是自己代码被别人覆盖。
 
