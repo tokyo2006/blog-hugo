@@ -1,5 +1,5 @@
 ---
-date: 2023-11-25
+date: 2023-12-27
 title: "kubernetes的资源管理"
 description: "kubernetes的资源管理"
 Section: post
