@@ -1,8 +1,8 @@
 baseurl = "https://blog.lkjxblog.tech"
 #theme = "nixon"
-title = "曾晨的博客"
+title = "Chen Zeng的博客"
 languageCode = "en-us"
-disqusShortname = "曾晨的博客"
+disqusShortname = "Chen Zeng的博客"
 MetaDataFormat = "yaml"
 hasCJKLanguage = true
 # used by Hugo shortcodes
@@ -11,7 +11,7 @@ hasCJKLanguage = true
 # note that the theme expects author both here and in the
 # parameters section
 [author]
-    name = "曾晨"
+    name = "Chen Zeng"
 
 # used by the theme
 [indexes]
@@ -26,7 +26,7 @@ hasCJKLanguage = true
 	personal_site = "https://blog.lkjxblog.tech/about/"
 
 	[params.author]
-		name = "曾晨"
+		name = "Chen Zeng"
 		# The three quotes allow the biography to span
 		# multiple lines. Must end with three, too.
 #		short_bio = """ """
