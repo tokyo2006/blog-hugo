@@ -35,4 +35,4 @@ Tags: ["xinta"]
 
 ### 正在学
 
-[puppet](https://puppet.com/) [terraform](https://www.terraform.io/) [golang](https://golang.google.cn/) [python](https://www.python.org/) [jenkins](https://www.jenkins.io/) [github action](https://docs.github.com/cn/actions)
+[puppet](https://puppet.com/) [terraform](https://www.terraform.io/) [golang](https://golang.google.cn/) [python](https://www.python.org/) [jenkins](https://www.jenkins.io/) [github action](https://docs.github.com/cn/actions) [argocd](https://argoproj.github.io/cd/) [fastAPI](https://fastapi.tiangolo.com/) [MATERIAL-UI](https://v4.mui.com/) [react](https://react.dev/) [pulumi](https://www.pulumi.com/)
