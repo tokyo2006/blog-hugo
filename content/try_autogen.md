@@ -89,7 +89,7 @@ import autogen
 config_list = [
         {
             "model": "chatglm2-6b",
-            "api_base": "http://localhost:8000/v1", #这里添加我们开启的本地API服务地址
+            "api_base": "http://localhost:1234/v1", #这里添加我们开启的本地API服务地址
             "api_type": "open_ai",
             "api_key": "NULL", # 这里仅仅是一个占位，因为我们本地的服务没有设置认证
         }
