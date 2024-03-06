@@ -9,3 +9,5 @@ Tags: ["split keyboard","redox","totem","charybdis","trackball","zmk","qmk"]
 <!--more-->
 {{< spoiler keyboard="/mattdibi/redox-keyboard" title="Redox" describe="(70键位)" info="点击这里看布局!" src="/tokyo2006/zmk-config-redox/raw/main/keymap-drawer/redox.svg" >}}
 {{< spoiler keyboard="/juhakaup/keyboards" title="Cygnus" describe="(36键位)" info="点击这里看布局!" src="/tokyo2006/zmk-for-cygnus/raw/main/keymap-drawer/cygnus.svg" >}}
+{{< spoiler keyboard="atulloh/oddball" title="Oddball" describe="(40键位)" info="点击这里看布局!" src="/tokyo2006/zmk-config-oddball/blob/main/keymap-drawer/oddball.svg" >}}
+{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis Nano" describe="(36键位)" info="点击这里看布局!" src="/tokyo2006/zmk-config-charybdisnano/blob/main/keymap-drawer/charybdisnano.svg" >}}
