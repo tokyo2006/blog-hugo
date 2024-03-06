@@ -11,5 +11,5 @@ Tags: ["split keyboard","redox","totem","charybdis","trackball","zmk","qmk"]
 {{< spoiler keyboard="/juhakaup/keyboards" title="Cygnus" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709714789/cygnus.svg.svg" >}}
 {{< spoiler keyboard="atulloh/oddball" title="Oddball" describe="(40键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709710661/oddball.svg.svg" >}}
 {{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis Nano" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709715220/charybdisnano.svg.svg" >}}
-{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(43键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709715273/charybdis.svg.svg" >}}
+{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(41键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709715273/charybdis.svg.svg" >}}
 {{< spoiler keyboard="gEIGEIGEIST/totem" title="Totem" describe="(38键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709721421/totem.svg.svg" >}}
