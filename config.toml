@@ -1,4 +1,4 @@
-baseurl = "https://blog.lkjxblog.tech"
+baseurl = "https://blog.lkjxblog.site"
 #theme = "nixon"
 title = "Chen Zeng的博客"
 languageCode = "en-us"
@@ -22,8 +22,8 @@ hasCJKLanguage = true
     notFoundHeader = """什么也没找到"""
 	notFoundText = """出错啦，你访问的页面不存在哟～～～"""
 	css_file = "/css/nixon.css"
-	domain_name = "blog.lkjxblog.tech"
-	personal_site = "https://blog.lkjxblog.tech/about/"
+	domain_name = "blog.lkjxblog.site"
+	personal_site = "https://blog.lkjxblog.site/about/"
 
 	[params.author]
 		name = "Chen Zeng"
@@ -48,5 +48,5 @@ hasCJKLanguage = true
 #		account = "nixon.example"
 
 	[params.license]
-		url = "https://blog.lkjxblog.tech/license/"
+		url = "https://blog.lkjxblog.site/license/"
 		attribution = "all rights reserved"

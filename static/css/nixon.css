@@ -255,7 +255,7 @@ article ol {
 
 @font-face {
     font-family: 'kvwp';
-    src: url("https://blog.lkjxblog.tech/fonts/KievitWebPro.eot");
+    src: url("https://blog.lkjxblog.site/fonts/KievitWebPro.eot");
     src: local("☺"), url("/fonts/KievitWebPro.woff") format("woff"), url("/fonts/KievitOT-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal
@@ -263,7 +263,7 @@ article ol {
 
 @font-face {
     font-family: 'kvwp';
-    src: url("https://blog.lkjxblog.tech/fonts/KievitWebPro-Bold.eot");
+    src: url("https://blog.lkjxblog.site/fonts/KievitWebPro-Bold.eot");
     src: local("☺"), url("/fonts/KievitWebPro-Bold.woff") format("woff"), url("/fonts/KievitOT-Bold.otf") format("opentype");
     font-weight: bold;
     font-style: normal
@@ -551,7 +551,7 @@ aside ul {
 }
 
 #explore>ul>li:after {
-    content: " https://blog.lkjxblog.tech/"
+    content: " https://blog.lkjxblog.site/"
 }
 
 #explore>ul>li:last-child:after {
@@ -1648,11 +1648,11 @@ body>footer p {
 
 @font-face {
     font-family: 'spf13-1';
-    src: url("https://blog.lkjxblog.tech/fonts/spf13-1.eot");
-    src: url("https://blog.lkjxblog.tech/fonts/spf13-1.eot?#iefix") format("embedded-opentype"),
-        url("https://blog.lkjxblog.tech/fonts/spf13-1.woff") format("woff"),
-        url("https://blog.lkjxblog.tech/fonts/spf13-1.ttf") format("truetype"),
-        url("https://blog.lkjxblog.tech/fonts/spf13-1.svg#spf13-1") format("svg");
+    src: url("https://blog.lkjxblog.site/fonts/spf13-1.eot");
+    src: url("https://blog.lkjxblog.site/fonts/spf13-1.eot?#iefix") format("embedded-opentype"),
+        url("https://blog.lkjxblog.site/fonts/spf13-1.woff") format("woff"),
+        url("https://blog.lkjxblog.site/fonts/spf13-1.ttf") format("truetype"),
+        url("https://blog.lkjxblog.site/fonts/spf13-1.svg#spf13-1") format("svg");
     font-weight: normal;
     font-style: normal
 }
