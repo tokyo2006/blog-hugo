@@ -12,27 +12,30 @@ Tags: ["split keyboard","redox","totem","charybdis","trackball","zmk","qmk"]
 - 外壳采用3d打印机打印，有曲面和平面两种外壳。
 - 采用热插拔MX轴，我使用的是灰木轴v4。
 - 
-{{< spoiler keyboard="/juhakaup/keyboards" title="Cygnus" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709714789/cygnus.svg.svg" >}}（已经卖了）
+{{< spoiler keyboard="/juhakaup/keyboards" title="Cygnus" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713751159/cygnus.svg.svg" >}}（已经卖了）
 - 主控使用的是nice!nano。
 - 外壳采用3d打印机打印外壳是曲面外壳。
 - 采用热插拔MX轴，我使用的是灰木轴v4。
-{{< spoiler keyboard="atulloh/oddball" title="Oddball" describe="(40键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709710661/oddball.svg.svg" >}}（已经卖了）
+{{< spoiler keyboard="atulloh/oddball" title="Oddball" describe="(40键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713752319/oddball.svg.svg" >}}（已经卖了）
 - 主控使用的是nice!nano,蓝牙双模。
 - 外壳采用3d打印机打印，材料是PETG。
 - 轴焊接在PCB板子上不可热插拔，我使用的是灰木轴v4。
 - 采用26mm轨迹球，使用的是pmw3610做为光电传感器。
-{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis Nano" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709715220/charybdisnano.svg.svg" >}}
+{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis Nano" describe="(36键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713752902/charybdisnano.svg.svg" >}}
 - 主控使用的是nice!nano,蓝牙双模。
 - 外壳采用3d打印机打印，材料是PETG。
 - 采用1uPCB小板作为键盘各个键的连接方式达到热插拔的效果，我使用的是灰木轴v4。
 - 采用34mm轨迹球，使用的是pmw3610做为光电传感器。
-{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(41键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709715273/charybdis.svg.svg" >}}（已经卖了）
+{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(41键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713752319/oddball.svg.svg" >}}（已经卖了）
 - 主控使用的是nice!nano,蓝牙双模。
 - 外壳采用3d打印机打印，材料是PETG。
 - 轴焊接在PCB板子上不可热插拔，我使用的是灰木轴v4。
 - 采用26mm轨迹球，使用的是pmw3610做为光电传感器。
-{{< spoiler keyboard="gEIGEIGEIST/totem" title="Totem" describe="(38键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709721421/totem.svg.svg" >}}
-{{< spoiler keyboard="tokyo2006/zmk-config-ipadk" title="IPAD Keyboard" describe="(55键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1709721421/ipadk.svg.svg" >}}
+{{< spoiler keyboard="gEIGEIGEIST/totem" title="Totem" describe="(38键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713754988/totem.svg.svg" >}}
+- 主控使用的是XIAO BLE,蓝牙双模。
+- 外壳采用光固化打印，材料是树脂。
+- 可热插拔choc v1。
+{{< spoiler keyboard="tokyo2006/zmk-config-ipadk" title="IPAD Keyboard" describe="(55键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713754649/ipadk.svg.svg" >}}
 - 主控使用的是nice!nano,蓝牙双模。
 - 外壳采用3d打印机打印，材料是PETG。
 - 采用兼容轴孔，支持MX,choc v1,佳达隆矮轴。
