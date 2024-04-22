@@ -26,7 +26,7 @@ Tags: ["split keyboard","redox","totem","charybdis","trackball","zmk","qmk"]
 - 外壳采用3d打印机打印，材料是PETG。
 - 采用1uPCB小板作为键盘各个键的连接方式达到热插拔的效果，我使用的是灰木轴v4。
 - 采用34mm轨迹球，使用的是pmw3610做为光电传感器。
-{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(41键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713752319/oddball.svg.svg" >}}（已经卖了）
+{{< spoiler keyboard="Bastardkb/Charybdis" title="Charybdis" describe="(41键位)" info="点击这里看布局!" src="https://res.cloudinary.com/xinta/image/upload/v1713752728/charybdis.svg.svg" >}}（已经卖了）
 - 主控使用的是nice!nano,蓝牙双模。
 - 外壳采用3d打印机打印，材料是PETG。
 - 轴焊接在PCB板子上不可热插拔，我使用的是灰木轴v4。
