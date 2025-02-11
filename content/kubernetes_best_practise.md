@@ -57,7 +57,7 @@ Kubernetes的资源限制有助于最小化内存泄漏的影响，以及pod和�
 > 当创建持久卷时，Kubernetes会自动将区域标签添加到链接到特定区域的任何PersistentVolumes。然后，调度器通过其novolumezoneconconflict谓词确保声明给定PersistentVolume的pod只被放置在与该卷相同的区域中。
 
 ### 网络
- 
+
 > Kubernetes本身不包括区域感知网络。可以使用网络插件来配置集群网络，并且该网络解决方案可能具有特定于区域的元素。例如，如果您的云提供商支持type=LoadBalancer的服务，那么负载平衡器可能只会将流量发送到与处理给定连接的负载平衡器元素在同一区域运行的pod。查看云提供商的文档以了解详细信息。对于自定义或本地部署，也需要考虑类似的问题。服务和入口行为，包括处理不同的故障区域。
 
 ### 故障恢复
@@ -82,21 +82,28 @@ Kubernetes的资源限制有助于最小化内存泄漏的影响，以及pod和�
 ### 配置所有的命名空间强制安全性检测
 
 1. 增加审计和告警的标签
-    ```
-    kubectl label --overwrite ns --all \
-    pod-security.kubernetes.io/audit=baseline \
-    pod-security.kubernetes.io/warn=baseline
-    ```
+
+```bash
+kubectl label --overwrite ns --all \
+pod-security.kubernetes.io/audit=baseline \
+pod-security.kubernetes.io/warn=baseline
+```
+
 2. 应用单个命名空间强制执行安全检查
-   ```
-   kubectl label --overwrite ns my-existing-namespace \
-  pod-security.kubernetes.io/enforce=restricted \
-  pod-security.kubernetes.io/enforce-version=v1.30
-   ```
+
+```bash
+kubectl label --overwrite ns my-existing-namespace \
+pod-security.kubernetes.io/enforce=restricted \
+pod-security.kubernetes.io/enforce-version=v1.30
+```
+
 ### 保证pod拥有最小的特权
+
 1. 允许特权工作负载的命名空间应建立并执行适当的访问控制。
 2. 对于在这些宽松的命名空间中运行的工作负载，应该维护关于它们独特安全要求的文档。如果可能的话，考虑如何进一步限制这些要求。
+
 ### 采用多模式策略
+
 1. Pod安全标准准入控制器的审计和警告模式使得收集关于您的Pod的重要安全信息变得容易，而无需破坏现有的工作负载。
 2. 为所有命名空间启用这些模式是一个良好的做法，将它们设置为您最终希望执行的所需级别和版本。在此阶段生成的警告和审计注释可以指导您达到该状态。如果您希望工作负载的作者进行更改以符合所需级别，请启用警告模式。如果您希望使用审计日志来监视/推动符合所需级别的更改，请启用审计模式。
 3. 当您将强制模式设置为所需的值时，这些模式仍然可以以几种不同的方式发挥作用：
