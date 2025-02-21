@@ -2,7 +2,9 @@
 date: 2025-02-21
 title: "面试总结"
 description: "这里会记录所有面试中遇到的问题"
-Type: "presentation"
+Type: "post"
+Topics:
+ - interview
 Tags:
  - interview
  - devops 

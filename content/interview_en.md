@@ -2,7 +2,9 @@
 date: 2025-02-21
 title: "Summary of Interviews"
 description: "This will record all the problems encountered in interviews."
-Type: "presentation"
+Type: "post"
+Topics:
+ - interview
 Tags:
  - interview
  - devops 
@@ -17,6 +19,7 @@ Tags:
 **Answer:** Determining the rules that need to be set in a Web Application Firewall (WAF) typically involves considering the following aspects:
 
 Commonly used methods include:
+
 1. **Security Requirements**: Based on the organization's security policies and business needs, identify which web applications and resources require protection.
 2. **Compliance**: Ensure that WAF rules comply with relevant security standards and regulations.
 3. **Attack Detection**: Understand common types of web application attacks and set corresponding rules to detect and block these attacks.
