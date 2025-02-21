@@ -8,9 +8,9 @@ Tags:
  - devops 
 ---
 
-### Interview Summary
-
 ## Problem Record
+
+---
 
 ### Question 1: How to determine the rules that need to be set in WAF?
 
