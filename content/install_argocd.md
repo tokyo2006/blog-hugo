@@ -3,7 +3,7 @@ date: 2025-02-24
 title: "安装ArgoCD"
 description: "安装ArgoCD"
 Section: post
-Draft: true
+Draft: false
 Slug: 安装ArgoCD
 Topics:
  - Devops
