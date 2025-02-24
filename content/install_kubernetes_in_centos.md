@@ -10,7 +10,8 @@ Tags: ["docker","linux","shell","kubernetes"]
 一直以来都想尝鲜下Kubernates但是每次看网站都云里雾里的，在google中看到很多博客都写了安装的步骤，于是乎我就参考了[Jimmy Song](http://rootsongjc.github.io/rootsongjc.github.io/about)写的[在CentOS上安装Kubernetes详细指南](http://rootsongjc.github.io/blogs/kubernetes-installation-on-centos/)。这里写下安装的步骤记录一下。
 <!--more-->
 
-![kubernetesincentos](https://res.cloudinary.com/xinta/image/upload/v1523925275/blogimage/QQ%E5%9B%BE%E7%89%8720170401144347.png) 
+![kubernetesincentos](https://res.cloudinary.com/xinta/image/upload/v1523925275/blogimage/QQ%E5%9B%BE%E7%89%8720170401144347.png)
+
 #### 系统环境
 
 - CentOS Linux release 7.3.1611
@@ -19,9 +20,7 @@ Tags: ["docker","linux","shell","kubernetes"]
 - Kubernetes 1.6.0
 - flannel 0.7.0-1
 
-
-
-####  一. Master安装
+#### 一. Master安装
 
 1. 关闭sellinux和防火墙
 
@@ -35,13 +34,13 @@ Tags: ["docker","linux","shell","kubernetes"]
 
 2. 打开文件限制
 
-   ```
+   ```bash
    echo "*                -       nofile          65536" >> /etc/security/limits.conf
    ```
 
 3. 安装docker
 
-   ```
+   ```bash
    curl -sSL https://get.docker.com/ | sh
    ```
 
@@ -170,7 +169,7 @@ Tags: ["docker","linux","shell","kubernetes"]
       - kube-proxy
       - kubectl
 
-      1.   配置kube-apiserver
+      1. 配置kube-apiserver
 
          ```shell
          #创建kube-apiserver的配置文件
@@ -217,16 +216,16 @@ Tags: ["docker","linux","shell","kubernetes"]
          EnvironmentFile=/etc/kubernetes/config
          EnvironmentFile=/etc/kubernetes/apiserver
          ExecStart=/usr/bin/kube-apiserver \
-         	    $KUBE_LOGTOSTDERR \
-         	    $KUBE_LOG_LEVEL \
-         	    $KUBE_ETCD_SERVERS \
-         	    $KUBE_API_ADDRESS \
-         	    $KUBE_API_PORT \
-         	    $KUBE_ALLOW_PRIV \
-         	    $KUBE_SERVICE_ADDRESSES \
-         	    $KUBE_ADMISSION_CONTROL \
-         	    $KUBE_API_ARGS \
-         		$KUBE_SERVICE_ADDREKUBELET_POD_INFRA_CONTAINERSSES
+             $KUBE_LOGTOSTDERR \
+             $KUBE_LOG_LEVEL \
+             $KUBE_ETCD_SERVERS \
+             $KUBE_API_ADDRESS \
+             $KUBE_API_PORT \
+             $KUBE_ALLOW_PRIV \
+             $KUBE_SERVICE_ADDRESSES \
+             $KUBE_ADMISSION_CONTROL \
+             $KUBE_API_ARGS \
+         $KUBE_SERVICE_ADDREKUBELET_POD_INFRA_CONTAINERSSES
          Restart=on-failure
          Type=notify
 
@@ -283,10 +282,10 @@ Tags: ["docker","linux","shell","kubernetes"]
          EnvironmentFile=/etc/kubernetes/config
          EnvironmentFile=/etc/kubernetes/controller-manager
          ExecStart=/usr/bin/kube-controller-manager \
-         	    $KUBE_LOGTOSTDERR \
-         	    $KUBE_LOG_LEVEL \
-         	    $KUBE_MASTER \
-         	    $KUBE_CONTROLLER_MANAGER_ARGS
+         $KUBE_LOGTOSTDERR \
+         $KUBE_LOG_LEVEL \
+         $KUBE_MASTER \
+         $KUBE_CONTROLLER_MANAGER_ARGS
          Restart=on-failure
          [Install]
          WantedBy=multi-user.target
@@ -352,10 +351,10 @@ Tags: ["docker","linux","shell","kubernetes"]
          EnvironmentFile=/etc/kubernetes/config
          EnvironmentFile=/etc/kubernetes/proxy
          ExecStart=/usr/bin/kube-proxy \
-         	    $KUBE_LOGTOSTDERR \
-         	    $KUBE_LOG_LEVEL \
-         	    $KUBE_MASTER \
-         	    $KUBE_PROXY_ARGS
+         $KUBE_LOGTOSTDERR \
+         $KUBE_LOG_LEVEL \
+         $KUBE_MASTER \
+         $KUBE_PROXY_ARGS
          Restart=on-failure
 
          [Install]
@@ -405,15 +404,15 @@ Tags: ["docker","linux","shell","kubernetes"]
          EnvironmentFile=/etc/kubernetes/config
          EnvironmentFile=/etc/kubernetes/kubelet
          ExecStart=/usr/bin/kubelet \
-         	    $KUBE_LOGTOSTDERR \
-         	    $KUBE_LOG_LEVEL \
-         	    $KUBELET_API_SERVER \
-         	    $KUBELET_ADDRESS \
-         	    $KUBELET_PORT \
-         	    $KUBELET_HOSTNAME \
-         	    $KUBE_ALLOW_PRIV \
-         	    $KUBELET_POD_INFRA_CONTAINER \
-         	    $KUBELET_ARGS
+         $KUBE_LOGTOSTDERR \
+         $KUBE_LOG_LEVEL \
+         $KUBELET_API_SERVER \
+         $KUBELET_ADDRESS \
+         $KUBELET_PORT \
+         $KUBELET_HOSTNAME \
+         $KUBE_ALLOW_PRIV \
+         $KUBELET_POD_INFRA_CONTAINER \
+         $KUBELET_ARGS
          Restart=on-failure
 
          [Install]
