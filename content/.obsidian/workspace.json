@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "3f4fb83c6e7fe4e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "178676eff3028e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76a5bbaeb1412d93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "k8s_resource.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "k8s_resource"
+            }
+          },
+          {
+            "id": "d15f2c010f419e68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "install_argocd.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "install_argocd"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02d741e0d67a70e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "855cdec714317295",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a533dacc7a106944",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "79e64d483a806208",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "002cfa2990a27aea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "331610b7527a8bb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c3d831f413a26ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdfabab1bd1bd828",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "deploy_with_argocd.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for deploy_with_argocd"
+            }
+          },
+          {
+            "id": "5c49ea095c42cc12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "deploy_with_argocd.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from deploy_with_argocd"
+            }
+          },
+          {
+            "id": "92e62ca611074904",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "06988bdba92fff00",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "deploy_with_argocd.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of deploy_with_argocd"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d15f2c010f419e68",
+  "lastOpenFiles": [
+    "deploy_with_argocd.md",
+    "install_argocd.md",
+    "ci_pipeline.md",
+    "k8s_resource.md",
+    "monitor.md",
+    "k8s_schedule.md",
+    "interview.md",
+    "devops_world.md",
+    "cd_pipeline.md",
+    "try_autogen.md",
+    "backup_mysql.md",
+    "interview_en.md",
+    "license.md",
+    "project/split_keyboard.md"
+  ]
+}
