@@ -185,6 +185,7 @@
   },
   "active": "d15f2c010f419e68",
   "lastOpenFiles": [
+    "aws_vpc.md",
     "deploy_with_argocd.md",
     "install_argocd.md",
     "ci_pipeline.md",
