@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "install_argocd.md",
+                "file": "aws_vpc.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "install_argocd"
+              "title": "aws_vpc"
             }
           }
         ],
@@ -185,9 +185,9 @@
   },
   "active": "d15f2c010f419e68",
   "lastOpenFiles": [
+    "install_argocd.md",
     "aws_vpc.md",
     "deploy_with_argocd.md",
-    "install_argocd.md",
     "ci_pipeline.md",
     "k8s_resource.md",
     "monitor.md",

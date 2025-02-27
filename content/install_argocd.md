@@ -210,5 +210,9 @@ Tags:
 4. 安装ArgoCD
 
   ```bash
-  helm install argocd argo-cd --create-namespace argocd
+  # 默认安装到default命名空间
+  helm install argocd ./argo-cd
+
+  # 自定义命名空间
+  helm install --set namespaceOverride=my-namespace argocd ./argo-cd --namespace my-namespace --create-namespace
   ```
