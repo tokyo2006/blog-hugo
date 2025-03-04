@@ -209,10 +209,42 @@ Tags:
 
 4. 安装ArgoCD
 
-  ```bash
-  # 默认安装到default命名空间
-  helm install argocd ./argo-cd
+    ```bash
+    # 默认安装到default命名空间
+    helm install argocd ./argo-cd
+    # 自定义命名空间
+    helm install --set namespaceOverride=my-namespace argocd ./argo-cd --namespace my-namespace --create-namespace
+    ```
 
-  # 自定义命名空间
-  helm install --set namespaceOverride=my-namespace argocd ./argo-cd --namespace my-namespace --create-namespace
-  ```
+5. 验证安装
+
+执行完`helm install`命令后，如果按照正常，你会看到一段ArgoCD的安装日志，类似于：
+
+```bash
+In order to access the server UI you have the following options:
+
+1. kubectl port-forward service/argocd-server -n argocd 8080:8080
+
+    and then open the browser on http://localhost:8080 and accept the certificate
+
+2. enable ingress in the values file `server.ingress.enabled` and either
+      - Add the annotation for ssl passthrough: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-1-ssl-passthrough
+      - Set the `configs.params."server.insecure"` in the values file and terminate SSL at your ingress: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-2-multiple-ingress-objects-and-hosts
+
+
+After reaching the UI the first time you can login with username: admin and the random password generated during the installation. You can find the password by running:
+
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+
+(You should delete the initial secret afterwards as suggested by the Getting Started Guide: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli)
+After reaching the UI the first time you cannot login with username and password since you've disabled it. You should enable admin back or configure Dex via `configs.cm.dex.config` or OIDC via `configs.cm.oidc.config`.
+
+```
+
+根据提示先设置端口转发然后打开网页就能看到下面内容
+
+![argocd_login](https://res.cloudinary.com/xinta/image/upload/v1741053739/blogimage/argo_login.jpg)
+
+使用上面提示的命令获取密码并登录即可。
+
+![argocd_ui](https://res.cloudinary.com/xinta/image/upload/v1741054245/blogimage/argocd_ui.png)
