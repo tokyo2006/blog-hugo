@@ -1,4 +1,4 @@
-FROM  tokyo2006/hugo-builder:v0.111
+FROM  tokyo2006/hugo-builder:v0.145
 
 LABEL maintainer="Chen Zeng <rurounikexin@gmail.com>" 
 
