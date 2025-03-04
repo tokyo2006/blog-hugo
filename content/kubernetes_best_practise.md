@@ -12,7 +12,9 @@ Tags:
  - kubernetes
 
 ---
+    kubernetes的最佳实践
 
+<!--more-->
 ## 对于大规模集群的最佳实践
 
 > kubernetes(v1.29)支持最多5000个节点的集群。对于每个节点有相应的限制

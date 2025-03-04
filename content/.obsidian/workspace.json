@@ -185,6 +185,10 @@
   },
   "active": "d15f2c010f419e68",
   "lastOpenFiles": [
+    "talks/placeholder.md",
+    "talks",
+    "presentation/placeholder.md",
+    "presentation",
     "install_argocd.md",
     "aws_vpc.md",
     "deploy_with_argocd.md",

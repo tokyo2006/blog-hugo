@@ -20,7 +20,7 @@
   <div>
       <h1 id="title">{{.Site.Title}}</h1>
     {{ range first 100 .Data.Pages }}
-    {{ if and (ne .Title "关于") (ne .Title "license") (ne .Title "Projects") }}
+    {{ if and (ne .Title "关于") (ne .Title "license") (ne .Title "Projects") (ne .Title "Talks") }}
         {{ .Render "summary"}}
     {{end}}
       

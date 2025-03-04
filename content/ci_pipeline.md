@@ -14,8 +14,6 @@ Tags:
  - buildkite
  - Github Actions
 ---
-
-
     软件开发中的测试构建就是一个不断循环的过程，软件就是在这个过程中不断地迭代更新，这里就会涉及一个软件持续构建的流程，就是我们通常说的CI(Continus Intergration)持续集成。
 <!--more-->
 

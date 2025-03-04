@@ -7,7 +7,7 @@ MetaDataFormat = "yaml"
 hasCJKLanguage = true
 # used by Hugo shortcodes
 #GoogleAnalytics = "UA-XXXXX-Y"
-
+ignoreLogs = ['warning-goldmark-raw-html']
 # note that the theme expects author both here and in the
 # parameters section
 [author]

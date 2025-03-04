@@ -11,7 +11,8 @@ Tags:
  - devops
  - ArgoCD
 ---
-
+    这篇文章会简单介绍如何使用ArgoCD进行应用的部署。
+<!--more-->
 ## 准备一个应用程序
 
 我使用的是官方的应用程序，地址是这里：[argocd-example-apps](https://github.com/tokyo2006/argocd-example-apps)
