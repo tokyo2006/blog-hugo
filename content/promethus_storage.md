@@ -15,7 +15,7 @@ Tags:
  - Promethus
  - Mimir
 ---
-Prometheus是一个开源的监控系统和时间序列数据库。为了确保监控数据的持久化存储，Prometheus提供了多种解决方案。其中，Mimir是一个分布式时间序列数据库，专门用于存储和查询大规模的时间序列数据。通过将Prometheus与Mimir集成，可以实现监控数据的持久化存储和高效查询。
+    Prometheus是一个开源的监控系统和时间序列数据库。为了确保监控数据的持久化存储，Prometheus提供了多种解决方案。其中，Mimir是一个分布式时间序列数据库，专门用于存储和查询大规模的时间序列数据。通过将Prometheus与Mimir集成，可以实现监控数据的持久化存储和高效查询。
 
 <!--more-->
 
@@ -58,7 +58,7 @@ Mimir由一下几个核心组件组成，他们协同工作，共同实现大规
 下图是Mimir的架构图：
 ![Mimir 架构图](https://res.cloudinary.com/xinta/image/upload/v1741145300/blogimage/mimir.png)
 
-我们通过一下两个方面来阐述Mimir的架构设计：
+我们通过以下两个方面来阐述Mimir的架构设计：
 
 ### 数据存储流程
 
