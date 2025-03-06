@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws_vpc.md",
+                "file": "promethus_storage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aws_vpc"
+              "title": "promethus_storage"
             }
           }
         ],
@@ -185,25 +185,27 @@
   },
   "active": "d15f2c010f419e68",
   "lastOpenFiles": [
+    "project/k8st.md",
+    "license.md",
+    "kubbernetes_limit.md",
+    "interview_en.md",
+    "install_argocd.md",
+    "devops_world.md",
+    "deploy_with_argocd.md",
+    "backup_mysql.md",
+    "aws_vpc.md",
     "promethus_storage.md",
     "talks/placeholder.md",
     "talks",
     "presentation/placeholder.md",
     "presentation",
-    "install_argocd.md",
-    "aws_vpc.md",
-    "deploy_with_argocd.md",
     "ci_pipeline.md",
     "k8s_resource.md",
     "monitor.md",
     "k8s_schedule.md",
     "interview.md",
-    "devops_world.md",
     "cd_pipeline.md",
     "try_autogen.md",
-    "backup_mysql.md",
-    "interview_en.md",
-    "license.md",
     "project/split_keyboard.md"
   ]
 }
