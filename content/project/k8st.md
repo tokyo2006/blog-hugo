@@ -1,19 +1,20 @@
-+++
-Title = "k8st:k8s的命令行小工具"
-Date = "2025-03-06"
-Description = "这是一个针对k8s的一个命令行小工具"
-Tags = ["kubernetes", "python","devops"]
-Topics = ["Development", "Python"]
-download_url = "https://github.com/tokyo2006/k8st/releases"
-project_description = "DESC"
-project_name = "k8st"
-project_url = "https://github.com/tokyo2006/k8st"
-release_date = "DATE"
-version = "0.0.9"
-+++
+---
+Title: "k8st:k8s的命令行小工具"
+Date: "2025-03-06"
+Description: "这是一个针对k8s的一个命令行小工具"
+Tags: ["kubernetes", "python","devops"]
+Topics: ["Development", "Python"]
+download_url: "https://github.com/tokyo2006/k8st/releases"
+project_description: "DESC"
+project_name: "k8st"
+project_url: "https://github.com/tokyo2006/k8st"
+release_date: "DATE"
+version: "0.0.9"
+Draft: false
+---
 
-k8st 是一个简化 Kubernetes 服务操作的命令行工具。
-
+    k8st 是一个简化 Kubernetes 服务操作的命令行工具。
+<!--more-->
 ## 快速开始
 
 ### 安装
