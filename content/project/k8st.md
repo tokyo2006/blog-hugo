@@ -8,7 +8,7 @@ download_url: "https://github.com/tokyo2006/k8st/releases"
 project_description: "DESC"
 project_name: "k8st"
 project_url: "https://github.com/tokyo2006/k8st"
-release_date: "DATE"
+release_date: "2025-03-06"
 version: "0.0.9"
 Draft: false
 ---
