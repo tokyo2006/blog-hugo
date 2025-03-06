@@ -4,7 +4,7 @@ Date: "2025-03-06"
 Description: "这是一个针对k8s的一个命令行小工具"
 Tags: ["kubernetes", "python","devops"]
 Topics: ["Development", "Python"]
-download_url: "https://github.com/tokyo2006/k8st/releases"
+download_url: "https://github.com/tokyo2006/k8st/releases/tag/v0.0.9"
 project_description: "这是一个针对k8s的一个命令行小工具"
 project_name: "k8st"
 project_url: "https://github.com/tokyo2006/k8st"
