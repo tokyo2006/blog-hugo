@@ -1,5 +1,5 @@
 ---
-date: 2025-02-21
+date: 2025-04-03
 title: "Summary of Interviews"
 description: "This will record all the problems encountered in interviews."
 Type: "post"
@@ -71,3 +71,59 @@ Further refinement can be done based on actual business scenarios, such as:
 6. **Regulatory Compliance**: Certain industries may have strict requirements on data storage locations and transmission paths. Independent VPCs help meet these compliance needs by allowing deployments in specific geographic regions or availability zones to ensure adherence to local laws.
 
 In summary, adopting an independent VPC approach not only enhances system security and stability but also provides greater operational flexibility and better resource management capabilities for businesses.
+
+## Question 5: Why Should Each Account Use a Dedicated VPC?
+
+**Answer:** Using a dedicated VPC (Virtual Private Cloud) for each account provides significant advantages, enhancing security, management efficiency, and resource isolation:
+
+1. **Enhanced Security:** Assigning independent VPCs to each account enables granular security policy configuration. For example, it allows better control over inbound/outbound traffic rules, restricts direct access between systems, reduces potential attack surfaces, and ensures security incidents in one VPC do not easily propagate to others.  
+2. **Network Isolation and Clear Boundaries:** Independent VPCs enforce strict logical isolation between business units or projects at the network layer, minimizing cross-interference. This is critical for large organizations to maintain clear departmental responsibilities and reduce operational risks.  
+3. **Simplified Management:** For companies with multiple departments or projects, dedicated VPCs per account streamline network architecture. Administrators can customize network settings for each VPC without affecting others, simplifying overall IT infrastructure management.  
+4. **Optimized Cost Control:** By leveraging cloud billing models (e.g., AWS), organizations can track resource consumption per department/project through separate VPCs, enabling precise cost allocation and budgeting.  
+5. **Flexibility and Multi-Environment Support:** Independent VPCs allow development teams to replicate network structures for test, staging, and production environments, ensuring consistent and isolated setups to accelerate agile development cycles.  
+6. **Regulatory Compliance:** Certain industries require strict data localization or transmission rules. Dedicated VPCs help meet compliance needs by deploying workloads in specific geographic regions to align with local regulations.  
+
+In summary, dedicated VPCs enhance system security and stability while offering operational flexibility and improved resource management.  
+
+---
+
+## Question 6: What Are the Differences Between VPC Peering and VPC Transit Gateway? What Are Their Advantages?
+
+**Answer:** Differences and advantages of VPC Peering vs. VPC Transit Gateway:  
+
+### Core Differences
+
+| Dimension                | VPC Peering                                  | VPC Transit Gateway (AWS Example)            |  
+|--------------------------|---------------------------------------------|----------------------------------------------|  
+| **Operation**            | Point-to-point connection between two VPCs using private IPs. | Centralized gateway for hub-and-spoke connectivity, managing routing centrally. |  
+| **Connectivity**         | Supports cross-region or same-region VPC pairs (manual routing required). | Connects multiple VPCs across regions and integrates on-premises data centers (via VPN/Direct Connect). |  
+| **Scalability**          | Full-mesh architecture becomes complex as VPCs grow (exponential maintenance cost). | Linear complexity; adding VPCs requires only a connection to the Transit Gateway. |  
+| **IP Requirements**      | VPC CIDR ranges must not overlap.           | Allows overlapping CIDR ranges (traffic isolation via routing policies). |  
+| **Hybrid Cloud Support** | No direct on-premises integration.          | Supports hybrid cloud via VPN/private links to on-premises infrastructure. |  
+
+### Key Advantages
+
+1. **VPC Peering:**  
+   - **Low Latency:** Direct private IP communication avoids public network hops.  
+   - **Simplicity:** Easy setup for small-scale, temporary connections (e.g., dev-test environments).  
+
+2. **VPC Transit Gateway:**  
+   - **Centralized Management:** Simplifies large-scale networks with unified routing and monitoring.  
+   - **Hybrid Cloud Integration:** Connects cloud VPCs and on-premises systems seamlessly.  
+   - **Cost Efficiency:** Reduces cross-region peering costs and eliminates full-mesh complexity.  
+
+### Use Cases
+
+- **VPC Peering:**  
+  - Temporary data sync between dev/test environments.  
+  - Cross-account resource sharing (e.g., databases).  
+- **Transit Gateway:**  
+  - Global enterprise networks with distributed VPCs and offices.  
+  - Microservices requiring cross-VPC communication.  
+
+---
+
+#### **Summary**
+
+- **Choose VPC Peering:** For simple, small-scale VPC interconnections prioritizing low latency and direct communication.  
+- **Choose Transit Gateway:** For complex topologies, hybrid cloud environments, or centralized management needs.  
