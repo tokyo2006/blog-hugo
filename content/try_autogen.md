@@ -40,7 +40,7 @@ Tags:
 通过pip安装
 
 ```bash
-pip install pyautogen
+pip install ag2
 ```
 
 ### 启动LM Studio并下载一份大模型【可选】
